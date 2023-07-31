@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 export default function BlogPost({ data }) {
   console.log(data)
@@ -12,7 +12,7 @@ export default function BlogPost({ data }) {
       slug={post.fields.slug}
       title={`${post.frontmatter.title} | Chris Speck's Site`}
     >
-      <SEO title={post.frontmatter.title} description={post.excerpt} />
+      <Seo title={post.frontmatter.title} description={post.excerpt} />
       <div>
         <h2>{post.frontmatter.title}</h2>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
