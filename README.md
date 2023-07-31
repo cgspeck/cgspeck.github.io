@@ -8,13 +8,13 @@ Setup nodenv, install the required node version, install then run `yarn`.
 
 Run development server with hot-reload:
 
-```
+```shell
 yarn run gatsby develop
 ```
 
 Do a production build & serve:
 
-```
+```shell
 yarn run gatsby build
 yarn run gatsby serve
 ```
