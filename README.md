@@ -2,7 +2,13 @@
 
 ## Installing pre-requisites
 
-Setup nodenv, install the required node version, install then run `yarn`.
+Setup nvm and use it to install/create environment:
+
+```shell
+nvm install
+nvm use
+yarn
+```
 
 ## Quick Reference
 
