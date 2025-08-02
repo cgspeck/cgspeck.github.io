@@ -7,7 +7,7 @@ import ExternalLink from "../components/externalLink"
 export default function Home() {
   return (
     <Layout slug="/" title="Chris Speck">
-      <h2>Hello!</h2>
+      <h2>Hello World!</h2>
       <p>
         My name is Chris, I am a software engineer and a man of many hobbies
         living in Melbourne, Australia.
