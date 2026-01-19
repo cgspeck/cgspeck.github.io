@@ -75,7 +75,7 @@ export default function Home() {
           </ExternalLink>
         </li>
       </ul>
-      <p>If you wish to contact me, my email address is cgspeck at gmail.com</p>
+      <p>If you wish to contact me, my email address is hello at chrisspeck.com</p>
       <p>You can also find me:</p>
       <ul>
         <li>
