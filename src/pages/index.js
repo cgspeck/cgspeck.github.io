@@ -12,8 +12,13 @@ export default function Home() {
         My name is Chris, I am a software engineer and a man of many hobbies
         living in Melbourne, Australia.
       </p>
-      <p>You may be interested in the following tools I've published:</p>
+      <p>You may be interested in the following tools and sites I've published:</p>
       <ul>
+        <li>The Westgate Brewers <ExternalLink url="https://stoutx.westgatebrewers.org/">Stout Extravaganza competition system</ExternalLink></li>
+        <li>A few tools for the X-Plane flight simulator:
+          <br />- <ExternalLink url="https://github.com/cgspeck/xplane-uipc">xplane-uipc</ExternalLink>, a rust X-Plane plugin that partially reimplements an IPC messaging system to expose datarefs and allow use of <ExternalLink url="https://www.selfloadingcargo.com/">Self Loading Cargo</ExternalLink> with the Zibomod 737.
+          <br />- <ExternalLink url="https://github.com/cgspeck/uipc-test-client">UIPC Test Client</ExternalLink>, a .NET C# console application that can be used to query any simulator that has a compatible host plugin installed.
+        </li>
         <li>
           A Windows tool written in Python/TkInter helps you create templates
           for the Behringer X-Touch Mini and Microsoft Flight Simulator
