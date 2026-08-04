@@ -72,7 +72,7 @@ export default function Home() {
         <li>
           A 3d printable{" "}
           <ExternalLink url="https://github.com/cgspeck/etw">
-            elevator trimtab
+            elevator trim wheel
           </ExternalLink>{" "}
           or{" "}
           <ExternalLink url="https://www.thingiverse.com/thing:3021944">
